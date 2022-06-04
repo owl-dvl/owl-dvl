@@ -14,5 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hayanno0
-)](https://github.com/anuraghazra/github-readme-stats)
+<p align="left"> 
+  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hayanno0&layout=show_icons=true&theme=cobalt" />
+  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=hayanno0&theme=cobalt&show_icons=ture" />
+</p>
