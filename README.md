@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ---
-### 🚀 Flutterで公開しているアプリ
+### 🚀 Flutterで公開しているアプリ🚀
 
 #### Bassers
 * [🍎　iOS](https://apps.apple.com/jp/app/bassers-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%90%E3%82%B9%E3%81%AE%E9%87%A3%E6%9E%9C%E3%82%92%E5%85%B1%E6%9C%89/id1644863738)
