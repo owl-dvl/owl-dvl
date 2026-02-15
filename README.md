@@ -20,7 +20,6 @@ Here are some ideas to get you started:
 
 
 ---
-### 🚀 Flutterで公開している個人アプリ🚀
 
 #### Bassers　(SNS)
 * https://bassers.app
