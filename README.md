@@ -23,6 +23,8 @@ Here are some ideas to get you started:
 
 #### Bassers　(SNS)
 * https://bassers.app
+  <img width="1400" height="1298" alt="bassers-architecture" src="https://github.com/user-attachments/assets/445de7e3-9077-47c1-a737-923a84292a74" />
+
 
 #### 多言語同時翻訳アプリ
 * [🍎　iOS](https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E7%BF%BB%E8%A8%B3%E3%82%A2%E3%83%97%E3%83%AA-%E3%81%99%E3%81%90%E3%81%AB%E5%A4%9A%E8%A8%80%E8%AA%9E%E5%90%8C%E6%99%82%E7%BF%BB%E8%A8%B3%E3%81%A7%E3%81%8D%E3%82%8B%E7%BF%BB%E8%A8%B3%E3%82%A2%E3%83%97%E3%83%AA/id1601032962?platform=iphone)
