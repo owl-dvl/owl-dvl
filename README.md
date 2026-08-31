@@ -24,6 +24,7 @@ Here are some ideas to get you started:
 #### Bassers　(SNS)
 * https://bassers.app
   <img width="1400" height="1298" alt="bassers-architecture" src="https://github.com/user-attachments/assets/445de7e3-9077-47c1-a737-923a84292a74" />
+* https://toravia.app
 
 
 #### 多言語同時翻訳アプリ
@@ -40,4 +41,3 @@ Here are some ideas to get you started:
 
 
 ---
-
