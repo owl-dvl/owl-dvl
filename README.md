@@ -18,7 +18,7 @@
       <p align="center">バス釣りの釣果記録・情報共有アプリ</p>
       <p align="center">
         <a href="https://bassers.app">
-          <img src="https://img.shields.io/badge/BASSERS-OPEN-111827?style=for-the-badge&logo=safari&logoColor=white" alt="Open BASSERS">
+          <img src="https://img.shields.io/badge/BASSERS-OPEN-2563EB?style=for-the-badge&logo=safari&logoColor=white" alt="Open BASSERS">
         </a>
       </p>
     </td>
