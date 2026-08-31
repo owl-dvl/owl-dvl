@@ -39,11 +39,112 @@
   </tr>
 </table>
 
-<details>
-  <summary><strong>BASSERS — Architecture</strong></summary>
-  <br>
-  <img width="1400" height="1298" alt="BASSERS architecture" src="https://github.com/user-attachments/assets/445de7e3-9077-47c1-a737-923a84292a74">
-</details>
+## Service Architecture
+
+### 🎣 BASSERS
+
+```mermaid
+flowchart LR
+    user((User))
+
+    subgraph client["Client"]
+        app["Flutter App<br/>iOS / Android"]
+        site["Web<br/>bassers.app"]
+    end
+
+    subgraph firebase["Firebase / Google Cloud"]
+        auth["Firebase Auth<br/>Apple / Google / Email"]
+        functions{{"Cloud Functions<br/>TypeScript / Node.js 20"}}
+        firestore[("Cloud Firestore<br/>Users / Posts / Fishing Logs")]
+        storage[("Cloud Storage<br/>Images")]
+        hosting["Firebase Hosting"]
+        fcm["Cloud Messaging<br/>Push Notifications"]
+        monitoring["Analytics / Crashlytics<br/>Remote Config"]
+    end
+
+    subgraph external["External Services"]
+        algolia["Algolia<br/>Search"]
+        revenuecat["RevenueCat<br/>Subscriptions"]
+        weather["WeatherAPI<br/>Weather Forecasts"]
+        google["Google Maps / AdMob<br/>Maps & Ads"]
+    end
+
+    user --> app
+    user --> site
+    app --> auth
+    app --> functions
+    app --> firestore
+    app --> storage
+    site --> hosting
+    hosting --> functions
+    functions --> firestore
+    functions --> storage
+    functions --> fcm
+    fcm --> app
+    firestore -->|Index Sync| algolia
+    app --> algolia
+    app --> revenuecat
+    revenuecat -. Webhook .-> functions
+    functions --> weather
+    app --> google
+    app -. Telemetry .-> monitoring
+```
+
+### 🌏 Toravia
+
+```mermaid
+flowchart LR
+    user((User))
+
+    subgraph client["Client"]
+        app["Flutter App<br/>iOS / Android"]
+        site["Official Site<br/>Astro"]
+    end
+
+    subgraph firebase["Firebase / Google Cloud"]
+        appcheck["App Check / Auth<br/>Apple / Google"]
+        functions{{"Cloud Functions<br/>TypeScript / Node.js 22"}}
+        firestore[("Cloud Firestore<br/>Workspace / History / Usage")]
+        storage[("Cloud Storage<br/>User Files")]
+        hosting["Firebase Hosting"]
+        fcm["Cloud Messaging<br/>Push Notifications"]
+    end
+
+    subgraph intelligence["Language & AI"]
+        translation["Translation APIs<br/>Azure / Google Cloud / DeepL"]
+        gemini["Vertex AI - Gemini<br/>AI Actions / Nuance Check"]
+        speech["Azure AI Speech<br/>Text to Speech"]
+    end
+
+    subgraph external["External Services"]
+        algolia["Algolia<br/>History Search"]
+        revenuecat["RevenueCat<br/>Subscriptions"]
+        admob["Google AdMob<br/>Ads"]
+        slack["Slack<br/>User Feedback"]
+    end
+
+    user --> app
+    user --> site
+    app --> appcheck
+    appcheck --> functions
+    app --> firestore
+    app --> storage
+    site --> hosting
+    hosting --> functions
+    functions --> firestore
+    functions --> storage
+    functions --> fcm
+    fcm --> app
+    functions --> translation
+    functions --> gemini
+    functions --> speech
+    firestore -->|Index Sync| algolia
+    app --> algolia
+    app --> revenuecat
+    revenuecat -. Webhook .-> functions
+    app --> admob
+    functions --> slack
+```
 
 ---
 
