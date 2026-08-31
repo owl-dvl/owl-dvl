@@ -8,7 +8,7 @@
 
 ---
 
-## Featured Products
+## 個人開発
 
 <table>
   <tr>
@@ -38,10 +38,6 @@
     </td>
   </tr>
 </table>
-
----
-
-## Mobile Apps
 
 | App | App Store | Google Play |
 |:--|:--:|:--:|
