@@ -4,8 +4,6 @@
   <img src="https://github.com/owl-dvl/owl-dvl/assets/44658323/8c12ee98-63d5-4b75-b270-9c9ca4c1c565" alt="Profile card" width="250">
 </p>
 
-<h3 align="center">Building products for anglers, travelers, and everyday work.</h3>
-
 ---
 
 ## 個人開発
