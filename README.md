@@ -39,22 +39,6 @@
   </tr>
 </table>
 
-## Service Architecture
-
-<details>
-  <summary><strong>🎣 BASSERS — Architecture Diagram</strong></summary>
-  <br>
-  <img src="./assets/architecture/bassers-architecture.svg" alt="BASSERSのサービス構成図" width="100%">
-</details>
-
-<br>
-
-<details>
-  <summary><strong>🌏 Toravia — Architecture Diagram</strong></summary>
-  <br>
-  <img src="./assets/architecture/toravia-architecture.svg" alt="Toraviaのサービス構成図" width="100%">
-</details>
-
 ---
 
 ## Mobile Apps
